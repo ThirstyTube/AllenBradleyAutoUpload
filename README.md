@@ -15,15 +15,15 @@ I use a version that I will be posting as a branch that uses a SQL db to store a
 First Edit(optional) 
 
 You should only need to change this if you install your SDK package in a non default spot. 
-ExePath = @"C:\\Program Files (x86)\\Rockwell Software\\Studio 5000\\Logix Designer SDK\\LdSdkServer.exe"
+    ExePath = @"C:\\Program Files (x86)\\Rockwell Software\\Studio 5000\\Logix Designer SDK\\LdSdkServer.exe"
 
 Second Edit
 
 This section is how you hardcode the required information. 
 
-  ("C:\\Backups\\Machine1", "Machine1", "192.168.0.21", "CLX"),
-  ("C:\\Backups\\Machine2", "Machine2", "192.168.0.22", "CLX"),
-  ("C:\\Backups\\Machine2", "Machine2", "192.168.0.23", "COM"),
+    ("C:\\Backups\\Machine1", "Machine1", "192.168.0.21", "CLX"),
+    ("C:\\Backups\\Machine2", "Machine2", "192.168.0.22", "CLX"),
+    ("C:\\Backups\\Machine2", "Machine2", "192.168.0.23", "COM"),
     
   The First part is where you are sending the uploaded file to. I personally always name the main folder after the PLC file inside. 
 
