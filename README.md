@@ -6,6 +6,7 @@ You will need to install Rockwells SDK library you can get it from the download 
 You will need to have a Studio 5000 Full license in order to use this. If you dont it will error for no license found. 
 You will need Rs Linx Classic and an ethernet driver populated with the devices youre going to use. Default this uses AB_ETH-1 but you can change it to what ever you like.,
 This only works with PLCs Firmware Ver 33 and up. 
+You will also need studio 5000 versions installed that match the firmware of your machines. I.e if you have PLCs with ver 33,34,and36 you need all three of those versions of Studio installed on your PC
 
 ****How to use****
 
@@ -55,5 +56,5 @@ When it backs up a PLC it also will scan the main dir and move currently present
 It will then leave the newest upload only remaining in main dir. 
 It will fail to move a file if it is opened elsewere or otherwise getting edited from other sources. 
 
-
+This Can be run on a schduled basis with Task Scheduler. 
 
