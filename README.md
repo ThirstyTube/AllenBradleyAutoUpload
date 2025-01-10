@@ -36,9 +36,9 @@ This section is how you hardcode the required information.
 
   Third Edit.(optional) 
 
-  //string ip = device.Files == "CLX"
-    //? $"AB_ETH-1\\{device.IP}\\Backplane\\0"
-    //: $"AB_ETH-1\\{device.IP}"
+    string ip = device.Files == "CLX"
+      ? $"AB_ETH-1\\{device.IP}\\Backplane\\0"
+      : $"AB_ETH-1\\{device.IP}"
     
 This is where the CLX entry comes in as. ControlLogix PLCs network path includes the backplane and slot number. 
 All CLX processors in my space are in slot zero. you could modify the code to accomodate this but I didnt because all machines in my enviorment have processors in slot 0 
