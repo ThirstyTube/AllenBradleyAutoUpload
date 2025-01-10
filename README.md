@@ -23,7 +23,7 @@ This section is how you hardcode the required information.
 
     ("C:\\Backups\\Machine1", "Machine1", "192.168.0.21", "CLX"),
     ("C:\\Backups\\Machine2", "Machine2", "192.168.0.22", "CLX"),
-    ("C:\\Backups\\Machine2", "Machine2", "192.168.0.23", "COM"),
+    ("C:\\Backups\\Machine3", "Machine3", "192.168.0.23", "COM"),
     
   The First part is where you are sending the uploaded file to. I personally always name the main folder after the PLC file inside. 
 
