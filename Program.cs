@@ -104,7 +104,7 @@ class BackupProgram
     {
         ("C:\\Backups\\Machine1", "Machine1", "192.168.0.21", "CLX"),
         ("C:\\Backups\\Machine2", "Machine2", "192.168.0.22", "CLX"),
-        ("C:\\Backups\\Machine2", "Machine2", "192.168.0.23", "COM"),
+        ("C:\\Backups\\Machine3", "Machine3", "192.168.0.23", "COM"),
         //Use this to hard code the folder its dumping to as well as file name. The Name will be concat with todays date so the example would be Machine1_YYYY_MM_DD.ACD 
         //CLX and COM must be present it helps determine communications diffrences between a Control Logix and a CompactLogix. 
     };
